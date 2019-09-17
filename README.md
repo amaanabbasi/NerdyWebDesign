@@ -2,7 +2,7 @@
 College project for Web Technology class
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/30196830/65066596-465dea00-d9a2-11e9-91dc-f15df2c15240.png">
+<img src="https://user-images.githubusercontent.com/30196830/65066596-465dea00-d9a2-11e9-91dc-f15df2c15240.png" height=400>
 </p>
 
 ## Member Names
