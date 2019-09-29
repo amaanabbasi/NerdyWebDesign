@@ -27,3 +27,7 @@ College project for Web Technology class
 | Karan Pratap | | |
 | Kamran Alam  | | |
 | Amaan Abbasi | | |
+
+## Getting Ideas
+
+[Broken Layout examples](https://www.youtube.com/watch?v=ZflTvXahvRE)
