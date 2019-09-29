@@ -5,32 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,400i,700" rel="stylesheet">
     <style>
-        .wrapper {
-            display:grid;
-            grid-template-columns: 1fr 2fr 1fr;
-            grid-auto-rows:minmax(100px, auto);
-            grid-gap:1em;
-            justify-items:stretch;
+        body {
+            color: #292929;
+            font: 1em/1.7 'Open sans', sans-serif;
+            }
+            
+            blockquote {
+            font: italic 1.1em/2 'Playfair Display', serif;
+            margin: 0 0 2em 0;
+            padding: 0 10px;
+            }
+            
+            .cta h1 {    
+            font: bold 6em/1 'Playfair Display', serif;
+            margin: 0 0 20px 0;
+            position: relative;
+            padding: 0 10px;
+            }
+            .cta {
+                padding: 0 10px;
+                font-weight: 800;
+            }
+        .grid1 {
+            display: grid;
+            grid-template-columns: 3fr 6fr 1fr 5fr 10fr 2fr;
+            grid-template-rows: 100px auto 15px auto auto;
+        }
 
+        .button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #990637;
+  padding: .8em 1.5em;
+}
+ 
+.button:hover {
+  background: black;
+}
+        
+        .img1 {  
+        background: url("av.jpg");
+        background-size: cover;
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 3;
         }
-        .wrapper > div{
-            background:#eee;
-            padding: 1em;
+        
+        .img2 {  
+        background: url("tony.jpg");
+        background-size: cover;
+        grid-column: 2 / span 2;
+        grid-row: 3 / span 3;
         }
-
-        .wrapper > div:nth-child(odd) {
-            background:#ddd;
+        
+        .img3 {  
+        background: url("captain.png");
+        background-size: cover;
+        grid-column: 5 / span 2;
+        grid-row: 1 / span 5;
         }
+        .strapline {
+            grid-column: 3 / span 3;
+            grid-row: 2 / span 1;
+            }
+            
+            .cta-wrapper {
+            grid-column: 4 / span 2;
+            grid-row: 4 / span 2;
+            }
     </style>
+
 </head>
 <body>
-  
-    <div class="wrapper">
+        <section class="grid1">
+        <div class="img1"></div>
+ 
+        <div class="img2"></div>
+         
+        <div class="img3"></div>
+
+        <div class="strapline">
+                <blockquote>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi accusamus harum. Delectus quia quis quaerat rem earum sunt molestias asperiores labore minus totam eaque quo, vero impedit voluptatibus porro.”</blockquote>
+            </div>
+               
+            <div class="cta-wrapper">  
+                <div class="cta">
+                    <h1>Avenge<font style="color:yellow">rs</font></h1>
+                    <p>Introducing 212/SE, our most powerful <font style="color:white">and agile subwoofer, designed exclusively for larger</font> systems and rooms to allow superior s<font style="color:white"> tate of the art speakers to spring to full voice.</font></p>
+                    <a class="button" href="">View Product Details →</a>
+                </div>
+            </div>
+    </section>
+    <!-- <div class="wrapper">
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
-        </div>  
+        </div>   -->
 </body>
 </html>
+
+
+<!-- <style>
+    .wrapper {
+        display:grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows:minmax(100px, auto);
+        grid-gap:1em;
+        justify-items:stretch;
+
+    }
+    .wrapper > div{
+        background:#eee;
+        padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+        background:#ddd;
+    }
+</style> -->
