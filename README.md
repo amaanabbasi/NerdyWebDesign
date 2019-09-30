@@ -9,7 +9,7 @@ College project for Web Technology class
 * Kamran Alam - Sassy writer
 * Karan Pratap - Desi dev
 * Neil Chauhan - Js dexter
-* Amaan Abbasi - " " 
+* Amaan Abbasi - Pythonista 
 
 ## TODO List
 - [ ] Choose Theme
