@@ -5,81 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="static/css/style.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,400i,700" rel="stylesheet">
     <style>
-        body {
-            color: #292929;
-            font: 1em/1.7 'Open sans', sans-serif;
-            }
-            
-            blockquote {
-            font: italic 1.1em/2 'Playfair Display', serif;
-            margin: 0 0 2em 0;
-            padding: 0 10px;
-            }
-            
-            .cta h1 {    
-            font: bold 6em/1 'Playfair Display', serif;
-            margin: 0 0 20px 0;
-            position: relative;
-            padding: 0 10px;
-            }
-            .cta {
-                padding: 0 10px;
-                font-weight: 800;
-            }
-        .grid1 {
-            display: grid;
-            grid-template-columns: 3fr 6fr 1fr 5fr 10fr 2fr;
-            grid-template-rows: 100px auto 15px auto auto;
-        }
-
-        .button {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background: #990637;
-  padding: .8em 1.5em;
-}
- 
-.button:hover {
-  background: black;
-}
         
-        .img1 {  
-        background: url("static/img/av.jpg");
-        background-size: cover;
-        grid-column: 1 / span 2;
-        grid-row: 2 / span 3;
-        }
-        
-        .img2 {  
-        background: url("static/img/tony.jpg");
-        background-size: cover;
-        grid-column: 2 / span 2;
-        grid-row: 3 / span 3;
-        }
-        
-        .img3 {  
-        background: url("static/img/captain.png");
-        background-size: cover;
-        grid-column: 5 / span 2;
-        grid-row: 1 / span 5;
-        }
-        .strapline {
-            grid-column: 3 / span 3;
-            grid-row: 2 / span 1;
-            }
-            
-            .cta-wrapper {
-            grid-column: 4 / span 2;
-            grid-row: 4 / span 2;
-            }
     </style>
 
 </head>
 <body>
-        <section class="grid1">
+                <button id="burger" class="open-main-nav">
+                    <span class="burger"></span>
+                    <span class="burger-text">Menu</span>
+                </button>
+                <nav class="main-nav" id="main-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Nerdy Webdesign</a>
+                        </li>
+                        <li>
+                            <a href="#">Don't Call us White & Nerdy</a>
+                        </li>
+                        <li>
+                            <a href="#">Ain't give a Fuck</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            
+        
+    
+        <section class="my-section">
+                <div class="container">
+        <div class="grid1">
         <div class="img1"></div>
  
         <div class="img2"></div>
@@ -92,18 +55,37 @@
                
             <div class="cta-wrapper">  
                 <div class="cta">
-                    <h1>Avenge<font style="color:yellow">rs</font></h1>
+                    <h1>Avenger<font style="color:yellow">rs</font></h1>
                     <p>Introducing 212/SE, our most powerful <font style="color:white">and agile subwoofer, designed exclusively for larger</font> systems and rooms to allow superior s<font style="color:white"> tate of the art speakers to spring to full voice.</font></p>
-                    <a class="button" href="">View Product Details →</a>
+                    <a class="our-button" href="">View Product Details →</a>
                 </div>
             </div>
+        </div>
+    </div>
+    
     </section>
+
+      
+
+    <!-- <section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Medium title
+      </h1>
+      <h2 class="subtitle">
+        Medium subtitle
+      </h2>
+    </div>
+  </div>
+</section> -->
     <!-- <div class="wrapper">
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
             <div class="item">Lorem ipsum dolor sit.</div>   
         </div>   -->
+        <script src="static/js/index.js"></script>
 </body>
 </html>
 
