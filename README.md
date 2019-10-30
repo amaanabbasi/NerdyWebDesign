@@ -6,6 +6,7 @@ College project for Web Technology class
 </p>
 
 ## Member Names
+* Mohd Niya Mul Haque - cadet coder
 * Kamran Alam - Sassy writer
 * Karan Pratap - Desi dev
 * Neil Chauhan - Js dexter
