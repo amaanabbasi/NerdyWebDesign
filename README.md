@@ -22,7 +22,7 @@ College project for Web Technology class
 - [ ] Repeat
 
 
-|  Member Name | Personla statement| Task Assigned | 
+|  Member Name | Personal statement| Task Assigned | 
 |---|---|---|
 | Neil Chauhan | | |
 | Karan Pratap | | |
