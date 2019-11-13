@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
 body {
-background: #041221;
+    
+background: #dde5ee;
+}
+
+.homepage-heading {
+    font-family: 'Leckerli One', cursive;
+    /* color: #041221;  */
+    font-size: 6.5em;
+    font-weight: 400;
+    text-shadow: white 0px 0px 5px;
+    /* background-color: #3e455280; */
+}
+
+.bg-image {
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    background-position: 0%;
 }
 .card {overflow:hidden}
 .card.large {
@@ -16,12 +34,12 @@ margin-bottom: 0 !important;
 }
 #flow span {
 display: block;
-width: 200vw;
-height: 200vw;
+width: 60vw;
+height: 50vw;
 position: absolute;
-top: -180vw;
-left: -50vw;
-border-radius: 90vw;
+/* top: -180vw; */
+/* left: -50vw; */
+border-radius: 100vw;
 opacity: 0.6;
 }
 .flow-1 {
