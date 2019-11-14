@@ -28,6 +28,7 @@ College project for Web Technology class
 | Karan Pratap | | |
 | Kamran Alam  | | |
 | Amaan Abbasi | | |
+| Mohd Niya Mul Haque | | |
 
 ## Getting Ideas
 
