@@ -13,16 +13,16 @@ College project for Web Technology class
 * Amaan Abbasi - Pythonista 
 
 ## TODO List
-- [ ] Choose Theme
-- [ ] Pick a Topic
-- [ ] Define the purpose
-- [ ] build a protoype
+- [x] Choose Theme
+- [x] Pick a Topic
+- [x] Define the purpose
+- [x] build a protoype
 - [ ] Get feedback
 - [ ] Deliver first version
 - [ ] Repeat
 
 
-|  Member Name | Personla statement| Task Assigned | 
+|  Member Name | Personal statement| Task Assigned | 
 |---|---|---|
 | Neil Chauhan | | |
 | Karan Pratap | | |

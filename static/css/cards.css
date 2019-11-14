@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
 body {
-background: #041221;
+    
+background: #dde5ee;
+}
+
+.homepage-heading {
+    font-family: 'Leckerli One', cursive;
+    /* color: #041221;  */
+    font-size: 6.5em;
+    font-weight: 400;
+    text-shadow: rgb(165, 212, 243) 0px 0px 5px;
+    -webkit-text-stroke-width: 2px;
+/* -webkit-text-stroke-color: rgba(0, 0, 0, 0.486); */
+    /* background-color: #3e455280; */
+}
+
+.bg-image {
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    background-position: 0%;
+}
+.panaroma {
+    background-image: url("../img/panaroma.jpeg");
+    /* background-size: cover; */
+    background-position:  center;
+
 }
 .card {overflow:hidden}
 .card.large {
@@ -16,12 +42,12 @@ margin-bottom: 0 !important;
 }
 #flow span {
 display: block;
-width: 200vw;
-height: 200vw;
+width: 90vw;
+height: 100vw;
 position: absolute;
-top: -180vw;
-left: -50vw;
-border-radius: 90vw;
+/* top: -180vw; */
+left: 1vw;
+border-radius: 100vw;
 opacity: 0.6;
 }
 .flow-1 {
@@ -103,3 +129,33 @@ color: lemonchiffon;
 
 ::selection 
 {background-color:#DEF4FF}
+
+.booking-container{
+    background: url(../img/form-background.jpg) center / cover !important;
+    height: 600px !important;
+    background: #fff;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 4rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px !important;
+}
+.booking-container h2{
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 3px 3px 8px rgba(147, 150, 150, 1) !important;
+}
+
+
+.booking-container .label{
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 1.2rem !important;
+    text-shadow: 3px 3px 8px rgba(147, 150, 150, 1) !important;
+}
+
+.booking-container .button{
+    font-weight: 700;
+    margin: 1rem 0;
+    width: 15rem !important;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1) !important;
+}
